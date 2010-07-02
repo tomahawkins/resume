@@ -1,0 +1,227 @@
+TOM HAWKINS  
+Phone : 952-200-3790  
+Email : tomahawkins@gmail.com
+Web   : http://tomahawkins.org/
+  
+----------------------------------------------------------------
+Professional Experience  
+----------------------------------------------------------------
+
+EATON CORPORATION
+Eden Prairie, MN
+http://www.eaton.com/
+Lead Embedded Software Engineer
+10/2007 to Present
+
+Leading the development of the embedded vehicle control
+software for Eaton's Hydraulic Launch Assist (HLA) program: a
+hydraulic hybrid system for heavy duty trucks.  Involved in all
+aspects of software development from requirements definition,
+coding, verification, and vehicle testing.  Coordinated both
+on-shore and off-shore development teams.
+
+Key Accomplishments:  
+
+* Developed Atom, a domain specific language and compiler used
+  extensively on HLA (http://www.tomahawkins.org/). Atom
+  provides lock-free, concurrent programming, with deterministic
+  time and memory performance for hard real-time applications.
+
+* Ported HLA prototyping software from Simulink to Atom and C,
+  reducing the lines of source code from 120K to 4K.  Refined
+  the design from early system prototyping to production.
+
+* Built an automated test framework for HLA software that
+  provided constrained random test stimulus, parametric test
+  generation, functional coverage, and assertion checking.
+  Integrated the framework with a requirements database for
+  test traceability.
+
+* Developed a tool for formal verification of C programs based
+  on infinite state model checking and k-induction.  Presented
+  the tool and an overview of formal verification to Eaton's
+  Aerospace group.
+
+* Built an instruction set simulator (ISS) to analyze execution
+  of PowerPC programs.  Used the ISS to reverse engineer an
+  embedded bootloader interface.
+
+* Invented a new hydraulic piston pump with theoretical
+  efficiency improvements over conventional axial piston pumps.
+  Created Mecha, a solid modeling language, which was used to
+  illustrate the pump's kinematics.
+
+
+MEDTRONIC, INC.
+Fridley, MN
+http://www.medtronic.com/
+Senior Design Automation Engineer
+1/2004 to 1/2007
+
+Providing design automation research and support to company wide
+product groups developing implantable medical devices.  Areas of
+expertise include front-end IC design, formal verification,
+system modeling, and behavioral logic synthesis.
+
+Key Accomplishments:  
+
+* Leading behavioral synthesis initiative to automatically
+  compile system models to FPGA and ASIC implementations.
+  * Developed the Atom language and compiler to generate Verilog
+    from object-oriented system models.
+  * Conducting feasibility study of the migration of firmware to
+    Atom to reduce the need for centralized processors in
+    implantable devices, potentially saving power and lowering
+    verification effort.
+
+* Leading initiatives in formal verification.
+  * Using model checking, verified system requirements for bus
+    arbitration and DSP power consumption on Medtronic's next
+    generation cardiac therapy.
+  * Instructed several courses at Medtronic on model checking
+    for hardware and firmware verification.
+
+* Support of all digital IC design and verification tools
+  including system modeling, digital simulation, model checking,
+  ASIC synthesis, FPGA synthesis, and equivalence checking.
+
+
+LAUNCHBIRD DESIGN SYSTEMS, INC.  
+Eden Prairie, MN  
+President and Founder
+5/2002 to 1/2004
+  
+Launchbird developed tools and languages for digital logic and
+embedded real-time software design.  Responsibilities included
+all business operations ranging across product development,
+marketing, and customer support.  
+  
+Key Accomplishments:  
+
+* Design of the Confluence language and compiler, and
+  demonstrated applications in DSP, microprocessor design,
+  forward error correction coding, and reconfigurable computing.
+
+* On invitation by Intel, presented Confluence at the 2005
+  conference on Function Programming for Hardware Description
+  Languages.
+  
+  
+DILLON ENGINEERING, INC.  
+Edina, MN  
+http://www.dilloneng.com/  
+Project Engineer Associate  
+5/2000 to 5/2002  
+  
+Consulting firm designs real-time embedded systems for image
+processing, DSP, networking, and control applications for
+clients in commercial and military sectors.  Responsibilities
+included the development and verification of the DSP IP core
+libraries, and the design lead for several control, networking,
+and vision system projects.
+  
+Key Accomplishments:  
+
+* Created the ParaCore framework for VHDL code generation to
+  increase productivity and design assurance.
+  
+* Using ParaCore, designed a parametric FFT IP core for a
+  vision system.  When synthesized to Xilinx Virtex-II, it was
+  at the time, the world's fastest FFT implementation.
+
+  
+HONEYWELL INTERNATIONAL, INC.  
+Glendale, AZ  
+Automatic Flight Control Systems (AFCS)  
+Systems Engineer  
+6/1998 to 5/2000  
+  
+Performed automatic flight control system development for 
+high-end business aircraft.  Followed DO-178B software 
+development practices including requirements definition and
+validation, system design, safety analysis, integration, and
+system verification.  
+  
+Key Accomplishments:  
+  
+* Designed Raytheon's Hawker Horizon yaw damper control laws
+  based on linear and non-linear aircraft models using modern
+  techniques including robustness analysis and neural-network
+  gain scheduling.
+
+* Assisted in developing the Honeywell Autocode Manager (HAM)
+  Simulink block-set for the Primus Epic integrated modular
+  avionics platform.
+  
+* Conducted auto-throttle bench, integration, and flight  
+  testing for Bombardier's Global Express.  
+  
+
+----------------------------------------------------------------
+Skills  
+----------------------------------------------------------------
+  
+Engineering Knowledge and Interests:
+  Control Theory, Vehicle Dynamics, Safety Critical Systems,
+  Forward Error Correction Coding (LDPC, Fountain Coding),
+  Cryptography, Functional Programming,
+  Model-Based Development, DO-178B, D0-254, Formal Verification,
+  Digital Signal Processing, Compiler Design, 3D Modeling.
+
+Programming Languages:  
+  C/C++, MATLAB, Simulink, Haskell, OCaml, Python, Java, SQL,
+  Verilog, VHDL, Assembly, PSL, Yices, NuSMV, SPIN, POVRay.
+
+Network Protocols:
+  CAN, J1939, ARINC 429, TCP, UDP, IEEE 1394.
+  
+Software and Electronic CAD Tools:
+  Cadence IUS, IFV, Conformal, Encounter, Specman;
+  Synopsys DesignCompiler; Synplicity Synplify; Xilinx ISE;
+  Green Hills Compilers.
+
+Embedded Platforms:
+  PowerPC, Xilinx, AVR, PIC, HC12.
+
+
+----------------------------------------------------------------
+Education  
+----------------------------------------------------------------
+  
+COLORADO STATE UNIVERSITY  
+Fort Collins, CO  
+1992-1998  
+BS Computer Engineering  
+GPA:3.4/4.0  
+  
+Advanced Course Work:  
+  Nonlinear Control, Robust Control, DSP, Computer Architecture,
+  Digital System Design, Control Systems, Communication Systems.  
+
+Projects:
+  * Remote airfoil control.
+  * DLXI RISC microprocessor modeling.
+  * Teaching assistant and lab instructor for senior level
+    digital design course.
+
+
+----------------------------------------------------------------
+Volunteering
+----------------------------------------------------------------
+
+BIG BROTHERS BIG SISTERS
+Minneapolis, MN
+Mentor
+11/2000 to 7/2009
+
+Big Brother to Jaleil, a 17 year-old from Minneapolis.
+
+
+CITY OF PHOENIX
+Phoenix, AZ
+Department of Recreation
+9/1999 to 11/1999
+
+Coached a youth soccer team; ages 5 and 6.
+
+
