@@ -43,8 +43,8 @@ Key Accomplishments:
   Aerospace group.
 
 * Built an instruction set simulator (ISS) to analyze execution
-  of PowerPC programs.  Used the ISS to reverse engineer an
-  embedded bootloader interface.
+  of embedded PowerPC programs.  Used the simulator to analyze
+  an embedded bootloader.
 
 * Invented a new hydraulic piston pump with theoretical
   efficiency improvements over conventional axial piston pumps.
