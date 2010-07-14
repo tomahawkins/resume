@@ -1,4 +1,4 @@
-TOM HAWKINS  
+TOM HAWKINS
 Phone : 952-200-3790  
 Email : tomahawkins@gmail.com
 Web   : http://tomahawkins.org/
@@ -13,38 +13,38 @@ http://www.eaton.com/
 Lead Embedded Software Engineer
 10/2007 to Present
 
-Leading the development of the embedded vehicle control
-software for Eaton's Hydraulic Launch Assist (HLA) program: a
-hydraulic hybrid system for heavy duty trucks.  Involved in all
-aspects of software development from requirements definition,
-coding, verification, and vehicle testing.  Coordinated both
-on-shore and off-shore development teams.
+Leading the development of the embedded vehicle control software
+for Eaton's Hydraulic Launch Assist (HLA) program: a hydraulic
+hybrid system for heavy duty trucks.  Involved in all aspects of
+software development from requirements definition, coding,
+verification, and vehicle testing.  Coordinated both on-shore
+and off-shore development teams.
 
 Key Accomplishments:  
 
-* Developed Atom, a domain specific language and compiler used
-  extensively on HLA (http://www.tomahawkins.org/). Atom
-  provides lock-free, concurrent programming, with deterministic
-  time and memory performance for hard real-time applications.
+* Created Atom, a Haskell DSL providing lock-free, concurrent
+  programming with deterministic execution time and memory
+  consumption for hard real-time applications.  Ported the HLA
+  prototype software from Simulink to Atom and refined the
+  design to production.
 
-* Ported HLA prototyping software from Simulink to Atom and C,
-  reducing the lines of source code from 120K to 4K.  Refined
-  the design from early system prototyping to production.
+* Developed a model checker (AFV) for the formal verification of
+  C programs.  Based on infinite state model checking and
+  k-induction, AFV was built with the Yices SMT solver.
+  Presented AFV and an overview of formal verification to
+  Eaton's Aerospace group.
 
-* Built an automated test framework for HLA software that
-  provided constrained random test stimulus, parametric test
-  generation, functional coverage, and assertion checking.
-  Integrated the framework with a requirements database for
-  test traceability.
+* Designed a DSL to model PowerPC processors for the simulation
+  and formal analysis of object code, and used the tools to
+  analyze security protocols of an embedded bootloader.
 
-* Developed a tool for formal verification of C programs based
-  on infinite state model checking and k-induction.  Presented
-  the tool and an overview of formal verification to Eaton's
-  Aerospace group.
+* Built an automated test framework in Atom for HLA providing
+  constrained random test stimulus, parametric test generation,
+  functional coverage, and assertion checking.  Integrated the
+  framework with a requirements database for test traceability.
 
-* Built an instruction set simulator (ISS) to analyze execution
-  of embedded PowerPC programs.  Used the simulator to analyze
-  an embedded bootloader.
+* Created a code generator to compile Rhapsody statecharts for
+  resource constrained embedded platforms.
 
 * Invented a new hydraulic piston pump with theoretical
   efficiency improvements over conventional axial piston pumps.
@@ -56,7 +56,7 @@ MEDTRONIC, INC.
 Fridley, MN
 http://www.medtronic.com/
 Senior Design Automation Engineer
-1/2004 to 1/2007
+1/2004 to 10/2007
 
 Providing design automation research and support to company wide
 product groups developing implantable medical devices.  Areas of
@@ -164,25 +164,27 @@ Skills
 Engineering Knowledge and Interests:
   Control Theory, Vehicle Dynamics, Safety Critical Systems,
   Forward Error Correction Coding (LDPC, Fountain Coding),
-  Cryptography, Functional Programming,
-  Model-Based Development, DO-178B, D0-254, Formal Verification,
-  Digital Signal Processing, Compiler Design, 3D Modeling.
+  Cryptography, Functional Programming, Model-Based Development,
+  DO-178B, D0-254, Formal Verification, Compiler Design,
+  Digital Signal Processing, 3D Modeling, Digital Hydraulics.
 
 Programming Languages:  
-  C/C++, MATLAB, Simulink, Haskell, OCaml, Python, Java, SQL,
+  C, MATLAB, Simulink, Haskell, OCaml, Python, Java, SQL, UML,
   Verilog, VHDL, Assembly, PSL, Yices, NuSMV, SPIN, POVRay.
 
 Network Protocols:
   CAN, J1939, ARINC 429, TCP, UDP, IEEE 1394.
   
 Software and Electronic CAD Tools:
-  Cadence IUS, IFV, Conformal, Encounter, Specman;
-  Synopsys DesignCompiler; Synplicity Synplify; Xilinx ISE;
-  Green Hills Compilers.
+  Cadence IUS, IFV, Conformal, Encounter; Synplicity Synplify;
+  Synopsys DesignCompiler; Xilinx ISE; Green Hills Compilers;
+  IBM Rhapsody.
 
 Embedded Platforms:
   PowerPC, Xilinx, AVR, PIC, HC12.
 
+Open Source Projects:
+  http://github.com/tomahawkins/
 
 ----------------------------------------------------------------
 Education  
