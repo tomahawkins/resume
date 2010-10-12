@@ -163,7 +163,8 @@ Skills
 Engineering Knowledge and Interests:
   Control Theory, Vehicle Dynamics, Safety Critical Systems,
   Forward Error Correction Coding (LDPC, Fountain Coding),
-  Cryptography, Functional Programming, Model-Based Development,
+  Cryptography, Content Centric Networking,
+  Functional Programming, Model-Based Development,
   DO-178B, D0-254, Formal Verification, Compiler Design,
   Digital Signal Processing, 3D Modeling, Digital Hydraulics.
 
