@@ -28,11 +28,10 @@ Key Accomplishments:
   prototype software from Simulink to Atom and refined the
   design to production.
 
-* Developed a model checker (AFV) for the formal verification of
-  C programs.  Based on infinite state model checking and
-  k-induction, AFV was built with the Yices SMT solver.
-  Presented AFV and an overview of formal verification to
-  Eaton's Aerospace group.
+* Created ImProve, a Haskell DSL for describing and verifying
+  high assurance embedded software.  ImProve performs infinite
+  state model checking with the Yices SMT solver.  Used ImProve
+  to design safety critical functions for HLA software.
 
 * Designed a DSL to model PowerPC processors for the simulation
   and formal analysis of object code, and used the tools to
