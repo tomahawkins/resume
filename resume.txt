@@ -1,7 +1,9 @@
 TOM HAWKINS
-Phone : 952-200-3790  
-Email : tomahawkins@gmail.com
-Web   : http://tomahawkins.org/
+Phone    : 952-200-3790  
+Email    : tomahawkins@gmail.com
+Web      : http://tomahawkins.org/
+LinkedIn : http://www.linkedin.com/in/tomahawkins/
+GitHub   : https://github.com/tomahawkins/
   
 ----------------------------------------------------------------
 Professional Experience  
@@ -26,12 +28,12 @@ Key Accomplishments:
   programming with deterministic execution time and memory
   consumption for hard real-time applications.  Ported the HLA
   prototype software from Simulink to Atom and refined the
-  design to production.
+  design to production.  Presented Atom at CUFP 2008.
 
-* Created ImProve, a Haskell DSL for describing and verifying
-  high assurance embedded software.  ImProve performs infinite
-  state model checking with the Yices SMT solver.  Used ImProve
-  to design safety critical functions for HLA software.
+* Created ImProve, a verification system and compiler for high
+  assurance embedded software.  ImProve performs k-induction,
+  infinte state model checking using the Yices SMT solver.
+  Used to design and verify safety critical functions for HLA.
 
 * Designed a DSL to model PowerPC processors for the simulation
   and formal analysis of object code, and used the tools to
@@ -42,13 +44,13 @@ Key Accomplishments:
   functional coverage, and assertion checking.  Integrated the
   framework with a requirements database for test traceability.
 
-* Created a code generator to compile Rhapsody statecharts for
-  resource constrained embedded platforms.
+* Created a compiler to transform Rhapsody statecharts models
+  to C for resource constrained embedded platforms.
 
 * Invented a new hydraulic piston pump with theoretical
   efficiency improvements over conventional axial piston pumps.
-  Created Mecha, a solid modeling language, which was used to
-  illustrate the pump's kinematics.
+
+* Invented a novel gas turbine hydraulic engine.
 
 
 MEDTRONIC, INC.
@@ -161,15 +163,15 @@ Skills
 ----------------------------------------------------------------
   
 Engineering Knowledge and Interests:
-  Control Theory, Vehicle Dynamics, Safety Critical Systems,
+  Functional Programming, Formal Methods of Verification,
+  Model-Based Development, Compiler Design, Control Theory,
+  Safety Critical Systems, DO-178B, D0-254,
   Forward Error Correction Coding (LDPC, Fountain Coding),
   Cryptography, Content Centric Networking,
-  Functional Programming, Model-Based Development,
-  DO-178B, D0-254, Formal Verification, Compiler Design,
-  Digital Signal Processing, 3D Modeling, Digital Hydraulics.
+  Hydraulic Power Systems.
 
 Programming Languages:  
-  C, MATLAB, Simulink, Haskell, OCaml, Python, Java, SQL, UML,
+  C, Haskell, OCaml, MATLAB, Simulink, Python, Java, SQL, UML,
   Verilog, VHDL, Assembly, PSL, Yices, NuSMV, SPIN, POVRay.
 
 Network Protocols:
@@ -185,6 +187,7 @@ Embedded Platforms:
 
 Open Source Projects:
   http://github.com/tomahawkins/
+
 
 ----------------------------------------------------------------
 Education  
