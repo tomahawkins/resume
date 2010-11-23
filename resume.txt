@@ -1,9 +1,15 @@
 TOM HAWKINS
+
+Embedded software and ASIC design engineer specializing in
+the modeling, synthesis, and formal verification of mission
+critical, high assurance applications.
+
 Phone    : 952-200-3790  
 Email    : tomahawkins@gmail.com
 Web      : http://tomahawkins.org/
 LinkedIn : http://www.linkedin.com/in/tomahawkins/
 GitHub   : https://github.com/tomahawkins/
+
   
 ----------------------------------------------------------------
 Professional Experience  
@@ -30,13 +36,13 @@ Key Accomplishments:
   prototype software from Simulink to Atom and refined the
   design to production.  Presented Atom at CUFP 2008.
 
-* Created ImProve, a verification system and compiler for high
+* Created ImProve, a compiler and formal verifier for high
   assurance embedded software.  ImProve performs k-induction,
-  infinte state model checking using the Yices SMT solver.
+  infinite state model checking using the Yices SMT solver.
   Used to design and verify safety critical functions for HLA.
 
 * Designed a DSL to model PowerPC processors for the simulation
-  and formal analysis of object code, and used the tools to
+  and formal analysis of object code.  Used the tools to
   analyze security protocols of an embedded bootloader.
 
 * Built an automated test framework in Atom for HLA providing
@@ -44,8 +50,8 @@ Key Accomplishments:
   functional coverage, and assertion checking.  Integrated the
   framework with a requirements database for test traceability.
 
-* Created a compiler to transform Rhapsody statecharts models
-  to C for resource constrained embedded platforms.
+* Created a compiler to generate C from Rhapsody UML statecharts
+  for resource constrained, RTOSless embedded platforms.
 
 * Invented a new hydraulic piston pump with theoretical
   efficiency improvements over conventional axial piston pumps.
