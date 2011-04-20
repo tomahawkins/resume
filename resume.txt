@@ -22,19 +22,17 @@ Lead Embedded Software Engineer
 10/2007 to Present
 
 Leading software development activities for Eaton's hydraulic
-hybrid vehicle programs.  Establishing and maintaining advance
-design automation tools and tool-chains including the application
-of code generation and formal verification.
+hybrid vehicles.  Established advance design automation tools
+including the application of code generation and formal methods.
 
 Key Accomplishments:  
 
-* Developed the core software architecture for two successful
-  hybrid vehicle programs, one of which is in production.
+* Created the ImProve DSL for the design and verification of
+  high assurance embedded software.  ImProve performs formal
+  verification of safety properties using SMT model checking.
+  ImProve is used in the design of Eaton's HLA hybrid vehicle.
 
-* Created the ImProve compiler and verification tool for high
-  assurance embedded software.  ImProve performs k-induction,
-  SMT based model checking to verify safety properties.  Used
-  in the verification of Eaton's hybrid vehicle control systems.
+  * http://github.com/tomahawkins/improve/wiki/ImProve
 
 * Created Atom, a Haskell DSL providing lock-free, concurrent
   programming with deterministic time and memory performance.
@@ -42,8 +40,8 @@ Key Accomplishments:
   the burden of timing analysis.  Presented Atom at CUFP 2008.
 
 * Designed a DSL to model PowerPC processors for the simulation
-  and formal analysis of object code.  Used the tools to
-  analyze security protocols of an embedded bootloader.
+  and formal analysis of object code.  Used in the analysis of
+  security protocols of an embedded bootloader.
 
 * Invented two hydraulic pumps with theoretical efficiency
   improvements over conventional axial piston pumps.
@@ -153,13 +151,13 @@ Skills
 Engineering Knowledge and Interests:
   Functional Programming, Formal Methods of Verification,
   Model-Based Development, Compiler Design, Control Theory,
-  Safety Critical Systems, DO-178B, D0-254,
+  Safety Critical Systems, DO-178, D0-254,
   Forward Error Correction Coding (LDPC, Fountain Coding),
   Cryptography, Content Centric Networking.
 
 Programming Languages:  
-  C, Haskell, OCaml, MATLAB, Simulink, Python, Java, SQL, UML,
-  Verilog, VHDL, Assembly, PSL, Yices, NuSMV, SPIN, POVRay.
+  C, Haskell, OCaml, Ada, MATLAB, Simulink, Python, Java, SQL,
+  UML, Verilog, VHDL, Assembly, PSL, Yices, NuSMV, SPIN, POVRay.
 
 Network Protocols:
   CAN, J1939, ARINC 429, TCP, UDP, IEEE 1394.
