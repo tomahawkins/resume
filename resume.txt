@@ -1,8 +1,11 @@
 TOM HAWKINS
 
-Embedded software and ASIC design engineer specializing in
-design automation, modeling, synthesis, and formal verification
-for mission critical, high assurance applications.
+I am a computer scientist and electrical engineer seeking a
+position in a research oriented setting or early product
+development team, where I can create and apply advanced and
+novel technologies to reduce cost, improve quality, and speed
+time to market for products in the aerospace, automotive,
+energy, medical, or manufacturing industries.
 
 Phone    : 952-200-3790  
 Email    : tomahawkins@gmail.com
@@ -37,14 +40,16 @@ Key Accomplishments:
 * Created Atom, a Haskell DSL providing lock-free, concurrent
   programming with deterministic time and memory performance.
   Atom synthesizes task scheduling at compile-time, reducing
-  the burden of timing analysis.  Presented Atom at CUFP 2008.
+  the burden of WCET analysis.  Presented Atom at CUFP 2008.
 
 * Designed a DSL to model PowerPC processors for the simulation
   and formal analysis of object code.  Used in the analysis of
   security protocols of an embedded bootloader.
 
-* Invented two hydraulic pumps with theoretical efficiency
-  improvements over conventional axial piston pumps.
+* Invented three hydraulic pumps with theoretical mechanical and
+  efficiency improvements over conventional axial piston pumps.
+  Using functional programming, designed tools to model and
+  visualize pump kinematics and derive optimal cam profiles.
 
 
 MEDTRONIC, INC.
@@ -153,7 +158,8 @@ Engineering Knowledge and Interests:
   Model-Based Development, Compiler Design, Control Theory,
   Safety Critical Systems, DO-178, D0-254,
   Forward Error Correction Coding (LDPC, Fountain Coding),
-  Cryptography, Content Centric Networking.
+  Cryptography, Content Centric Networking,
+  Hydraulic systems.
 
 Programming Languages:  
   C, Haskell, OCaml, Ada, MATLAB, Simulink, Python, Java, SQL,
