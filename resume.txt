@@ -25,8 +25,10 @@ Lead Embedded Software Engineer
 10/2007 to Present
 
 Leading software development activities for Eaton's hydraulic
-hybrid vehicles.  Established advance design automation tools
-including the application of code generation and formal methods.
+hybrid vehicles.  Developed software architectures for multiple
+vehicle programs from prototype to production.  Established
+advance design automation tools including the application of
+code generation and formal methods.
 
 Key Accomplishments:  
 
@@ -174,7 +176,7 @@ Software and Electronic CAD Tools:
   IBM Rhapsody.
 
 Embedded Platforms:
-  PowerPC, Xilinx, AVR, PIC, HC12.
+  Freescale MPC, Xilinx, AVR, PIC, HC12.
 
 
 ----------------------------------------------------------------
