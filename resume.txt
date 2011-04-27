@@ -5,7 +5,8 @@ position in a research oriented setting or early product
 development team, where I can create and apply advanced and
 novel technologies to reduce cost, improve quality, and speed
 time to market for products in the aerospace, automotive,
-energy, medical, or manufacturing industries.
+energy, computer security, medical, manufacturing, networking,
+or semiconductor industries.
 
 Phone    : 952-200-3790  
 Email    : tomahawkins@gmail.com
@@ -158,10 +159,10 @@ Skills
 Engineering Knowledge and Interests:
   Functional Programming, Formal Methods of Verification,
   Model-Based Development, Compiler Design, Control Theory,
-  Safety Critical Systems, DO-178, D0-254,
+  Mechatronics, Safety Critical Systems, DO-178, D0-254,
   Forward Error Correction Coding (LDPC, Fountain Coding),
   Cryptography, Content Centric Networking,
-  Hydraulic systems.
+  Hydraulic Systems.
 
 Programming Languages:  
   C, Haskell, OCaml, Ada, MATLAB, Simulink, Python, Java, SQL,
