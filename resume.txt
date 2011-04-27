@@ -115,8 +115,8 @@ Project Engineer Associate
 5/2000 to 5/2002  
   
 Consulting firm designs real-time embedded systems for image
-processing, DSP, networking, and control applications for
-clients in commercial and military sectors.
+processing, computer vision, DSP, networking, and control
+applications for clients in commercial and military sectors.
   
 Key Accomplishments:  
 
