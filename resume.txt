@@ -1,12 +1,10 @@
 TOM HAWKINS
 
-I am a computer scientist and electrical engineer seeking a
-position in a research oriented setting or early product
-development team, where I can create and apply advanced and
-novel technologies to reduce cost, improve quality, and speed
-time to market for products in the aerospace, automotive,
-energy, computer, construction, medical, or manufacturing
-industries.
+A computer scientist and electrical engineer seeking a position
+where I can create and apply advanced and novel technologies to
+reduce cost, improve quality, and speed time to market for
+products in the aerospace, automotive, energy, construction, or
+manufacturing industries.
 
 Phone    : 952-200-3790  
 Email    : tomahawkins@gmail.com
@@ -25,13 +23,19 @@ http://www.eaton.com/
 Lead Embedded Software Engineer
 10/2007 to Present
 
-Leading software development activities for Eaton's hydraulic
-hybrid vehicles.  Developed software architectures for multiple
-vehicle programs from prototype to production.  Established
-advance design automation tools including the application of
-code generation and formal methods.
+Leading embedded software development for Eaton's parallel
+hydraulic hybrid vehicles.  Created the software architecture
+for the HLA family of vehicles and guided development from
+prototype to production.  Established advance design tools and
+promoted the use of code generation and formal methods.
 
 Key Accomplishments:  
+
+* Successfully led the development of HLA embedded software to
+  production.  Involved in all aspects of program including
+  control law design, supervisory state machines, fault
+  monitoring and diagnostics, intra-vehicle J1939 networking,
+  data logging, cellular telemetry and remote fleet management.
 
 * Created the ImProve DSL for the design and verification of
   high assurance embedded software.  ImProve performs formal
@@ -44,10 +48,6 @@ Key Accomplishments:
   programming with deterministic time and memory performance.
   Atom synthesizes task scheduling at compile-time, reducing
   the burden of WCET analysis.  Presented Atom at CUFP 2008.
-
-* Designed a DSL to model PowerPC processors for the simulation
-  and formal analysis of object code.  Used in the analysis of
-  security protocols of an embedded bootloader.
 
 * Invented three hydraulic pumps with theoretical mechanical and
   efficiency improvements over conventional axial piston pumps.
