@@ -102,6 +102,9 @@ LAUNCHBIRD DESIGN SYSTEMS, INC.
 Eden Prairie, MN  
 President and Founder
 5/2002 to 1/2004
+
+Started a company to develop and promote Confluence: a
+functional programming language for ASIC and FPGA design.
   
 Key Accomplishments:  
 
@@ -120,9 +123,9 @@ http://www.dilloneng.com/
 Project Engineer Associate  
 5/2000 to 5/2002  
   
-Consulting firm designs real-time embedded systems for image
-processing, computer vision, DSP, networking, and control
-applications for clients in commercial and military sectors.
+Consulting firm designs FPGA systems for image processing,
+computer vision, DSP, networking, and control applications
+for clients in commercial and military sectors.
   
 Key Accomplishments:  
 
