@@ -3,8 +3,8 @@ TOM HAWKINS
 A computer scientist and electrical engineer seeking a position
 where I can create and apply advanced and novel technologies to
 reduce cost, improve quality, and speed time to market for
-products in the aerospace, automotive, energy, construction, or
-manufacturing industries.
+products in the aerospace, automotive, energy, financial, 
+or construction industries.
 
 Phone    : 952-200-3790  
 Email    : tomahawkins@gmail.com
@@ -76,8 +76,8 @@ Key Accomplishments:
 * Leading behavioral synthesis initiative to automatically
   compile system models to FPGA and ASIC implementations.
 
-  * Developed the Atom language and compiler to generate Verilog
-    from object-oriented system models.
+  * Developed the Atom DSL and compiler to generate Verilog
+    from object-oriented behavioral models.
 
   * Conducting feasibility study of the migration of firmware to
     Atom to reduce the need for centralized processors in
