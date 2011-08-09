@@ -97,9 +97,11 @@ Key Accomplishments:
   * Instructed several courses at Medtronic on model checking
     for hardware and firmware verification.
 
-* Support of all digital IC design and verification tools
+* Supported all frontend digital design and verification tools
   including system modeling, digital simulation, model checking,
-  ASIC synthesis, FPGA synthesis, and equivalence checking.
+  ASIC synthesis, FPGA synthesis, and formal equivalence
+  checking.  Integrated with backend flows including timing
+  closure, DFT, physical design, and LVS/DRC.
 
 
 LAUNCHBIRD DESIGN SYSTEMS, INC.  
