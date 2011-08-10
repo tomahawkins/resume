@@ -40,9 +40,8 @@ Key Accomplishments:
 * Created the ImProve DSL for the design and verification of
   high assurance embedded software.  ImProve performs formal
   verification of safety properties using SMT model checking.
-  ImProve is used in the design of Eaton's HLA hybrid vehicle.
-
-  * http://github.com/tomahawkins/improve/wiki/ImProve
+  Invited to FMCAD 2011 to present how ImProve is used in the
+  design and verification HLA control software.
 
 * Created Atom, a Haskell DSL providing lock-free, concurrent
   programming with deterministic time and memory performance.
