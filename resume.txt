@@ -55,8 +55,8 @@ Key Accomplishments:
   HLA Bus.
 
 * Reverse engineered a bootloader security protocol using a
-  combination of disassembled binary program analysis and a
-  chosen-ciphertext attack.
+  combination of disassembled binary program analysis and
+  chosen-plaintext methods.
 
 * Invented three hydraulic pumps with theoretical mechanical and
   efficiency improvements over conventional axial piston pumps.
