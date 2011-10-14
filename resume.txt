@@ -1,12 +1,13 @@
 TOM HAWKINS
 
-A computer scientist and electrical engineer seeking a position
-where I can create and apply advanced and novel technologies to
-reduce cost, improve quality, and speed time to market for
-products in the aerospace, automotive, defense, energy,
-financial, semiconductor, or construction industries.
+A computer scientist and electrical engineer specializing in
+functional programming, domain specific languages, and formal
+methods, seeking a position to apply advanced and novel
+technologies to improve quality, reduce cost, and speed time to
+market for products in the aerospace, automotive, defense,
+energy, or semiconductor industries.
 
-Phone    : 952-200-3790  
+Phone    : 641-512-7192
 Email    : tomahawkins@gmail.com
 Web      : http://tomahawkins.org/
 LinkedIn : http://www.linkedin.com/in/tomahawkins/
@@ -49,13 +50,12 @@ Key Accomplishments:
   the burden of WCET analysis and the need for an RTOS.
   Presented Atom at CUFP 2008.
 
-* Created a fault tree analysis tool that uses SMT to calculate
-  minimal cut sets.  Applied the tool in the safety analysis of 
-  HLA Bus.
-
 * Reverse engineered a bootloader security protocol using a
-  combination of disassembled binary program analysis and
-  chosen-plaintext methods.
+  combination of machine code simulation and chosen-plaintext
+  cryptanalysis.
+
+* Created a fault tree analysis tool that uses SMT to calculate
+  minimal cut sets.  Applied the tool in HLA safety analysis.
 
 * Invented three hydraulic pumps with theoretical mechanical and
   efficiency improvements over conventional axial piston pumps.
