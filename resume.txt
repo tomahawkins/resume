@@ -24,41 +24,42 @@ http://www.baesystems.com/
 Principle Software Engineer
 11/2011 to Present
 
-Working with the DARPA CRASH SAFE team, which includes
-researchers from BAE Systems, University of Pennsylvania,
-Northeastern University, and Harvard University, to develop a
-new processor, new programming languages, and a new operating
-system with information flow control (IFC) enforced at every
-layer in the stack.  Responsible for the overall development of
-the SAFE toolchain and closely supporting FPGA design, language
-development, compiler construction, and network implementations.
+Partnered with programming language and compiler researchers
+from the University of Pennsylvania, Northeastern University,
+and Harvard University on DARPA's CRASH SAFE program to develop
+a new processor, new programming languages, and a new operating
+system with information flow control (IFC) security enforced at
+every layer.  Responsible for the development of the SAFE
+toolchain and closely supporting FPGA design, language
+development, compiler construction, and network implementation.
+
+  http://www.crash-safe.org/
 
 Key Accomplishments:
 
-* Created the SAFE assembler, including embedding the SAFE
-  machine language into a Haskell DSL.  Initiated the migration
-  of the entire SAFE toolchain to Haskell.
+* Created the SAFE assembler and the SAFE assembly DSL embedded
+  in Haskell.
 
 * Created CIRC: a Haskell library for describing fine-grained
   bidirectional compiler flows.  CIRC takes Nanopass-like
-  descriptions and generates compiler IRs and transformations in
-  Haskell.
+  descriptions and generates compiler IR datatypes and
+  transformations in Haskell.
   
 * Using CIRC, built the first Breeze compiler and demonstrated
   end-to-end compilation with execution on the SAFE instruction
   set simulator.  (Breeze is a high-order functional language
   with IFC semantics for SAFE application programming.)
 
-* Using SMT, verified IFC noninterference security properties of
-  abstract representations of the SAFE processor, supplanting
-  methods of randomized testing introduced to support Coq
-  verification.
+* Using SMT, verified noninterference security properties
+  of abstract representations of the SAFE processor,
+  supplanting methods of randomized testing introduced to
+  support formal Coq verification.
 
 * Built an Ethernet implementation in Bluespec for the SAFE
   processor and demonstrated the design on the FPGA.
 
-* Presented an overview of the SAFE project at CUFP 2013,
-  emphasizing the use of embedded Haskell DSLs in the toolchain:
+* Presented an overview of SAFE at CUFP 2013, emphasizing
+  the use of embedded Haskell DSLs in the toolchain:
 
   http://cufp.org/conference/sessions/2013/tom-hawkins-bae-systems-redesigning-computer-secur
 
@@ -69,11 +70,11 @@ http://www.eaton.com/
 Lead Embedded Software Engineer
 10/2007 to 11/2011
 
-Lead embedded software development for Eaton's parallel
+Led embedded software development for Eaton's parallel
 hydraulic hybrid vehicles.  Created the software architecture
 for the HLA family of vehicles and guided development from
-prototype to production.  Established advance design tools and
-promoted the use of code generation and formal methods.
+prototype to production.  Established advanced design tools
+and promoted the use of code generation and formal methods.
 
 Key Accomplishments:  
 
@@ -81,15 +82,15 @@ Key Accomplishments:
   production.  Involved in all aspects of program including
   control law design, supervisory state machines, fault
   monitoring and diagnostics, intra-vehicle J1939 networking,
-  data logging, cellular telemetry and remote fleet management.
+  data logging, cellular telemetry, and remote fleet management.
 
-* Created the ImProve DSL for the design and verification of
-  high assurance embedded software.  ImProve performs formal
+* Created the ImProve DSL and used it to design and verify
+  critical aspects of HLA software.  ImProve performs formal
   verification of safety properties using SMT model checking.
-  With ImProve we were able to find several undiscovered
-  specification defects and was able to prove the existence
-  of a known software bug that previously destroyed $80K of
-  pump hardware.
+  With it we were able to find several undiscovered
+  specification and design defects and it was able to show the
+  existence of a known software bug that previously destroyed
+  $80K worth of hydraulic pump hardware.
 
 * Created Atom, a Haskell DSL providing lock-free, concurrent
   programming with deterministic time and memory performance.
@@ -100,10 +101,10 @@ Key Accomplishments:
 * Created a fault tree analysis tool that uses SMT to calculate
   minimal cut sets.  Applied the tool in HLA safety analysis.
 
-* Invented three hydraulic pumps with theoretical mechanical and
-  efficiency improvements over conventional axial piston pumps.
-  Using functional programming, designed tools to model and
-  visualize pump kinematics and derive optimal cam profiles.
+* Invented three hydraulic pumps with theoretical efficiency
+  improvements over conventional axial piston pumps.  Used
+  functional programming to model and visualize pump kinematics
+  and to derive optimal cam profiles.
 
 
 MEDTRONIC, INC.
@@ -217,11 +218,8 @@ Engineering Knowledge and Interests:
   Compiler Design, Safety Critical Systems, Cybersecurity,
   Control Theory, Hard Realtime Embedded, Hydraulic Systems.
 
-Programming Languages and Tools:  
-  Haskell, OCaml,
-  Yices, CVC4, ACL2, 
-  C, MATLAB, Simulink, Python,
-  Bluespec, Verilog, VHDL.
+Prefered Programming Languages and Tools:  
+  Haskell, C, Bluespec, Verilog, Yices, CVC4, ACL2. 
 
 
 ----------------------------------------------------------------
@@ -254,7 +252,7 @@ Minneapolis, MN
 Mentor
 11/2000 to 7/2009
 
-Big Brother to Jaleil, a 17 year-old from Minneapolis.
+Big Brother to Jaleil, a youth from Minneapolis.
 
 
 CITY OF PHOENIX
