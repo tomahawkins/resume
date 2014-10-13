@@ -1,11 +1,8 @@
 TOM HAWKINS
 
 A computer scientist and electrical engineer specializing in
-functional programming, domain specific languages, and formal
-methods, seeking a position to apply advanced and novel
-technologies to improve quality, reduce cost, and speed time to
-market for products in the aerospace, automotive, biotech,
-defense, energy, or semiconductor industries.
+functional programming, domain specific languages, formal
+methods, control systems, and FPGA/ASIC design.
 
 Phone    : 781-281-4481
 Email    : tomahawkins@gmail.com
@@ -18,45 +15,47 @@ GitHub   : http://github.com/tomahawkins/
 Professional Experience  
 ----------------------------------------------------------------
 
-BAE Systems
+BAE Systems, Inc.
 Burlington, MA
 http://www.baesystems.com/
 Principle Software Engineer
 11/2011 to Present
 
-Partnered with programming language and compiler researchers
-from the University of Pennsylvania, Northeastern University,
-and Harvard University on DARPA's CRASH SAFE program to develop
-a new processor, new programming languages, and a new operating
-system with information flow control (IFC) security enforced at
-every layer.  Responsible for the development of the SAFE
-toolchain and closely supporting FPGA design, language
-development, compiler construction, and network implementation.
-
-  http://www.crash-safe.org/
+Research and software engineering in support of various DARPA
+programs including CRASH (computer information flow control),
+PERFECT (low power, fault tolerant hardware), and HACMS
+(embedded computer security).  Partnered with programming
+language, compiler, and hardware researchers from the
+University of Pennsylvania, Northeastern University, Harvard
+University, and Princeton University.
 
 Key Accomplishments:
 
-* Created the SAFE assembler and the SAFE assembly DSL embedded
-  in Haskell.
+* Using Haskell and ACL2, built two independent proof frameworks
+  for the Ivory-Haskell DSL (HACMS).  One compiles Ivory
+  procedures to ACL2 for formal modeling, the second performs
+  interprocedural analysis to verify user specified and compiler
+  generated assertions and procedure contracts.
 
-* Created CIRC: a Haskell library for describing fine-grained
+* Developed the CRASH-SAFE assembly DSL (embedded in Haskell)
+  and the assembler for the SAFE processor.
+
+* Created the Haskell CIRC library for describing fine-grained
   bidirectional compiler flows.  CIRC takes Nanopass-like
   descriptions and generates compiler IR datatypes and
-  transformations in Haskell.
-  
-* Using CIRC, built the first Breeze compiler and demonstrated
-  end-to-end compilation with execution on the SAFE instruction
-  set simulator.  (Breeze is a high-order functional language
-  with IFC semantics for SAFE application programming.)
+  transformations in Haskell.  Using CIRC, built the first Breeze
+  compiler and demonstrated end-to-end compilation with execution
+  on the SAFE instruction set simulator.  (Breeze is a high-order
+  functional language with IFC semantics for SAFE application
+  programming.)
 
-* Using SMT, verified noninterference security properties
-  of abstract representations of the SAFE processor,
-  supplanting methods of randomized testing introduced to
-  support formal Coq verification.
+* Using SMT, verified noninterference security properties of
+  abstract representations of the SAFE processor, augmenting
+  methods of randomized testing introduced to support formal
+  verification in Coq.
 
-* Built an Ethernet implementation in Bluespec for the SAFE
-  processor and demonstrated the design on the FPGA.
+* Built an Ethernet stack in Bluespec for the SAFE processor and
+  demonstrated the design on the FPGA.
 
 * Presented an overview of SAFE at CUFP 2013, emphasizing
   the use of embedded Haskell DSLs in the toolchain:
@@ -218,7 +217,7 @@ Engineering Knowledge and Interests:
   Compiler Design, Safety Critical Systems, Cybersecurity,
   Control Theory, Hard Realtime Embedded, Hydraulic Systems.
 
-Prefered Programming Languages and Tools:  
+Preferred Programming Languages and Tools:  
   Haskell, C, Bluespec, Verilog, Yices, CVC4, ACL2. 
 
 
@@ -247,19 +246,23 @@ Projects:
 Volunteering
 ----------------------------------------------------------------
 
+CLARION YMCA
+Clarion, PA
+2014
+Youth soccer coach, 1st-2nd grade.
+
+IOWA CITY KICKERS
+Iowa City, IA
+2013 to 2014
+Youth soccer coach, 1st grade.
+
 BIG BROTHERS BIG SISTERS
 Minneapolis, MN
-Mentor
-11/2000 to 7/2009
-
-Big Brother to Jaleil, a youth from Minneapolis.
-
+2000 to 2009
+Mentor to Jaleil, a youth from Minneapolis.
 
 CITY OF PHOENIX
 Phoenix, AZ
-Department of Recreation
-9/1999 to 11/1999
-
-Coached a youth soccer team; ages 5 and 6.
-
+1999
+Youth soccer coach, ages 5 and 6.
 
