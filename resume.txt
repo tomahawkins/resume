@@ -2,7 +2,7 @@ TOM HAWKINS
 
 A computer scientist and electrical engineer specializing in
 functional programming, domain specific languages, formal
-methods, control systems, and FPGA/ASIC design.
+methods, embedded control systems, and FPGA/ASIC design.
 
 Phone    : 781-281-4481
 Email    : tomahawkins@gmail.com
@@ -24,10 +24,10 @@ Principle Software Engineer
 Research and software engineering in support of various DARPA
 programs including CRASH (computer information flow control),
 PERFECT (low power, fault tolerant hardware), and HACMS
-(embedded computer security).  Partnered with programming
-language, compiler, and hardware researchers from the
-University of Pennsylvania, Northeastern University, Harvard
-University, and Princeton University.
+(embedded computer security).  On projects partnered closely
+with programming language, compiler, and hardware researchers
+from the University of Pennsylvania, Northeastern University,
+Harvard University, and Princeton University.
 
 Key Accomplishments:
 
