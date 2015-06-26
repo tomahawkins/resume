@@ -28,8 +28,8 @@ cybersecurity, embedded control systems, and FPGA and ASIC design.
   Securing a network of many hosts is difficult.
   Would it be easier if the distributed machines formed a
   single virtual host?
-  How would a [SAFE](http://www.crash-safe.org/)
-  machine be architected for virtualization aggregation?
+  How would you architect a [SAFE](http://www.crash-safe.org/)
+  machine for virtualization aggregation?
 
 * Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber) for Lake Erie.
 
