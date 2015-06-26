@@ -9,6 +9,8 @@ cybersecurity, embedded control systems, and FPGA and ASIC design.
 * [http://github.com/tomahawkins/](http://github.com/tomahawkins/)
 * [http://www.linkedin.com/in/tomahawkins/](http://www.linkedin.com/in/tomahawkins/)
 
+The latest version of this resume can be found on [GitHub](https://github.com/tomahawkins/resume/blob/master/resume.md).
+
 ## Things I would do if I had the time and money:
 
 * Create a development framework (languages, compilers)
@@ -37,7 +39,7 @@ cybersecurity, embedded control systems, and FPGA and ASIC design.
 
 ## [BAE Systems, Inc.](http://www.baesystems.com/), Sr Principle SW Engr, 11/2011 - Present
 
-Research and software engineering for various DARPA programs including
+Research and software engineering for various DARPA cybersecurity programs including
 [CRASH](http://www.darpa.mil/program/clean-slate-design-of-resilient-adaptive-secure-hosts),
 [HACMS](http://www.darpa.mil/program/high-assurance-cyber-military-systems), and
 [PERFECT](http://www.darpa.mil/program/power-efficiency-revolution-for-embedded-computing-technologies).
@@ -47,39 +49,35 @@ Harvard University, and Princeton University.
 
 ### Accomplishments:
 
-* Using Haskell and ACL2, built the [Dove](http://hackage.haskell.org/package/dove)
-  verification environment for [Ivory](http://ivorylang.org).
-  Dove translates Ivory assertions and contracts into 
-  verification conditions (VCs) that are discharged to ACL2 for proof.
-  By performing an interprocedural analysis, dove is able to
-  scale verification for large programs.
+* Developed the assembly toolchain for the [SAFE](http://www.crash-safe.org/) processor,
+  which included an assembly Haskell DSL that became the backend for the Tempest and Breeze compilers.
 
-* For the [CRASH-SAFE](http://www.crash-safe.org/) team,
-  developed the assembly toolchain for the SAFE processor,
-  included an assembly Haskell DSL that became the backend
-  for the Tempest and Breeze compilers.
-
-* Created the [Haskell CIRC library](http://hackage.haskell.org/package/circ)
+* Created the [CIRC DSL](http://hackage.haskell.org/package/circ)
   for describing fine-grained bidirectional compiler flows.
   CIRC takes [Nanopass-like](https://www.youtube.com/watch?v=Os7FE3J-U5Q)
-  descriptions and generates compiler IR datatypes and
-  transformations in Haskell.  Using CIRC, built the first Breeze
-  compiler and demonstrated end-to-end compilation with execution
-  on the SAFE instruction set simulator.
+  descriptions and generates compiler IR datatypes and transformations in Haskell.
+  
+* Using CIRC, built the first Breeze compiler -- a higher order functional
+  language with information flow control (IFC) -- and demonstrated end-to-end
+  compilation with execution on the SAFE instruction set simulator.
 
 * Using SMT, verified noninterference security properties of
   abstract representations of the SAFE processor, augmenting
   methods of randomized testing introduced to support formal
   verification in Coq.
 
-* Developed a [Verilog parsing library](http://hackage.haskell.org/package/verilog)
-  for analyzing and transforming RTL generated from [Bluespec](http://www.bluespec.com/).
-
-* Built an Ethernet stack in Bluespec for the SAFE processor and
-  demonstrated the design on the FPGA.
+* Built a Gigabit Ethernet stack in Bluespec for the SAFE processor and
+  demonstrated the design on the FPGA development platform.
 
 * [Presented an overview of SAFE at CUFP 2013](http://cufp.org/conference/sessions/2013/tom-hawkins-bae-systems-redesigning-computer-secur).
 
+* Developed the [Dove](http://hackage.haskell.org/package/dove)
+  verification environment for [Ivory](http://ivorylang.org)
+  (Ivory is used by other HACMS performers for [UAV flight software](http://www.engadget.com/2015/03/16/pentagon-wants-unhackable-helicopters/)).
+  Dove translates Ivory assertions and contracts into 
+  verification conditions (VCs) that are discharged to ACL2 for proof.
+  By performing an interprocedural analysis, dove is able to
+  scale up verification for large programs.
 
 
 ## [EATON CORPORATION](http://www.eaton.com/), Lead SW Engr, 10/2007 - 11/2011
@@ -227,6 +225,6 @@ Communication Systems.
 
 * Clarion YMCA, Clarion, PA 2014: Youth soccer coach, 1st-2nd grade.
 * Iowa City Kickers, Iowa City, IA, 2013 to 2014: Youth soccer coach, 1st grade.
-* Big Brothers Big Sisters, Minneapolis, MN, 2000 to 2009: Mentor to Jaleil, a youth from Minneapolis.
+* Big Brothers Big Sisters, Minneapolis, MN, 2000 to 2009: Mentor to a Minneapolis youth.
 * City of Phoenix, Phoenix, AZ, 1999: Youth soccer coach, ages 5 and 6.
 
