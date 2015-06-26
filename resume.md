@@ -17,17 +17,19 @@ cybersecurity, embedded control systems, and FPGA and ASIC design.
   with provably correct security properties (memory safety, NXD+NWC, CFI, IFC)
   for use in critical applications (defense, aerospace, energy, medical).
 
-* Investigate security benefits of virtualization aggregation.
-  Securing a network of individual hosts is difficult.
-  Would it be easier if the distributed machines formed a
-  single virtual host?  Targeted for enterprise/cloud computing.
-
 * FPGAs provide lower power consumption and enhanced security
-  over conventional processors for a variety of embedded applications.
-  Yet they remain undervalued by developers due to the continued
-  shortcomings of programming languages and tools.
+  over conventional processors,
+  yet they remain undervalued by embedded developers due
+  to shortcomings with programming languages and tools.
   What can be done in this space to allow FPGAs to find their
   way into more embedded applications?
+
+* Investigate security benefits of virtualization aggregation.
+  Securing a network of many hosts is difficult.
+  Would it be easier if the distributed machines formed a
+  single virtual host?
+  How would a [SAFE](http://www.crash-safe.org/)
+  machine be architected for virtualization aggregation?
 
 * Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber) for Lake Erie.
 
@@ -43,15 +45,16 @@ Partnered closely with programming language and hardware researchers
 from the University of Pennsylvania, Northeastern University,
 Harvard University, and Princeton University.
 
-### Key Accomplishments:
+### Accomplishments:
 
-* Using Haskell and ACL2, built two independent proof frameworks
-  for [Ivory](http://ivorylang.org).  One compiles Ivory
-  procedures to ACL2 for formal modeling; the second performs
-  interprocedural analysis to verify user specified and compiler
-  generated assertions and procedure contracts.
+* Using Haskell and ACL2, built the [Dove](http://hackage.haskell.org/package/dove)
+  verification environment for [Ivory](http://ivorylang.org).
+  Dove translates Ivory assertions and contracts into 
+  verification conditions (VCs) that are discharged to ACL2 for proof.
+  By performing an interprocedural analysis, dove is able to
+  scale verification for large programs.
 
-* For the [CRASH-SAFE](http://www.crash-safe.org/) program,
+* For the [CRASH-SAFE](http://www.crash-safe.org/) team,
   developed the assembly toolchain for the SAFE processor,
   included an assembly Haskell DSL that became the backend
   for the Tempest and Breeze compilers.
@@ -62,9 +65,7 @@ Harvard University, and Princeton University.
   descriptions and generates compiler IR datatypes and
   transformations in Haskell.  Using CIRC, built the first Breeze
   compiler and demonstrated end-to-end compilation with execution
-  on the SAFE instruction set simulator.  (Breeze is a high-order
-  functional language with IFC semantics for SAFE application
-  programming.)
+  on the SAFE instruction set simulator.
 
 * Using SMT, verified noninterference security properties of
   abstract representations of the SAFE processor, augmenting
@@ -90,7 +91,7 @@ for the HLA family of vehicles and guided development from
 prototype to production.  Established advanced design tools
 and promoted the use of code generation and formal methods.
 
-### Key Accomplishments:
+### Accomplishments:
 
 * Successfully led the development of HLA embedded software to
   production.  Involved in all aspects of program including
@@ -131,7 +132,7 @@ product groups developing implantable medical devices.  Areas of
 expertise include front-end IC design, formal verification,
 system modeling, and behavioral logic synthesis.
 
-### Key Accomplishments:
+### Accomplishments:
 
 * Lead behavioral synthesis initiatives to
   compile system models to FPGA and ASIC implementations
@@ -154,7 +155,7 @@ system modeling, and behavioral logic synthesis.
 Started a company to develop and promote Confluence: a
 functional programming language for ASIC and FPGA design.
 
-### Key Accomplishments:
+### Accomplishments:
 
 * Design of the Confluence language and compiler, and
   demonstrated applications in DSP, microprocessor design,
@@ -171,7 +172,7 @@ Consulting firm designs FPGA systems for image processing,
 computer vision, DSP, networking, and control applications
 for clients in commercial and military sectors.
 
-### Key Accomplishments:
+### Accomplishments:
 
 * Created [ParaCore Architect](http://www.dilloneng.com/paracore-architect-ip-generation.html) (PCA):
   A framework to describe parametric IP libraries.
@@ -187,7 +188,7 @@ development practices including requirements definition and
 validation, system design, safety analysis, integration, and
 system verification.
 
-### Key Accomplishments:
+### Accomplishments:
 
 * Codeveloped the Honeywell Autocode Manager (HAM):
   A Simulink library for model-based development of flight control avionics.
