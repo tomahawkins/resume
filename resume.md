@@ -61,8 +61,8 @@ Harvard University, and Princeton University.
   language with information flow control (IFC) -- and demonstrated end-to-end
   compilation with execution on the SAFE instruction set simulator.
 
-* Using SMT, verified noninterference security properties of
-  abstract representations of the SAFE processor, augmenting
+* Using SMT, [verified noninterference security properties](https://github.com/tomahawkins/ni-proofs)
+  of abstract representations of the SAFE processor, augmenting
   methods of randomized testing introduced to support formal
   verification in Coq.
 
