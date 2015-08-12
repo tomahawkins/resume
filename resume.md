@@ -210,7 +210,7 @@ system verification.
 
 # Education
 
-COLORADO STATE UNIVERSITY, Fort Collins, CO, 1992 - 1998
+[COLORADO STATE UNIVERSITY](http://www.colostate.edu/), Fort Collins, CO, 1992 - 1998
 
 BS Computer Engineering, GPA:3.4/4.0
 
