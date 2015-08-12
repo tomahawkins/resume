@@ -33,7 +33,18 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
   How would you architect a [SAFE](http://www.crash-safe.org/)
   machine for virtualization aggregation?
 
-* Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber) for Lake Erie.
+* In vehicle networks the number of onboard
+  computers (ECUs) continues to grow,
+  yet we still program each processing node independently.
+  What can be done to automated the distribution of processing
+  across a vehicle network?
+  Can we arrive at a point where
+  vehicle software is designed as a single application and
+  an intelligent compiler automates the partitioning 
+  and distribution of the program to the processing nodes?
+  
+* Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber)
+  for Lake Erie to combat agricultural runoff and protect water supplies.
 
 # Professional Experience
 
