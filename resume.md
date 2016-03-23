@@ -13,19 +13,6 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
 
 ## Things I would do if I had the time and money:
 
-* Create a development framework (languages, compilers)
-  to build a secure embedded computing platform (OS, drivers, apps)
-  to run on COTS hardware (x86, ARM)
-  with provably correct security properties (memory safety, NXD+NWC, CFI, IFC)
-  for use in critical applications (defense, aerospace, energy, medical).
-
-* FPGAs provide lower power consumption and enhanced security
-  over conventional processors,
-  yet they remain undervalued by embedded developers due
-  to shortcomings with programming languages and tools.
-  What can be done in this space to allow FPGAs to find their
-  way into more embedded applications?
-
 * Investigate security benefits of virtualization aggregation.
   Securing a network of many hosts is difficult.
   Would it be easier if the distributed machines formed a
@@ -43,6 +30,21 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
   an intelligent compiler automates the partitioning 
   and distribution of the program to the processing nodes?
   
+* FPGAs provide lower power consumption and enhanced security
+  over conventional processors,
+  yet they remain undervalued by embedded developers due
+  to shortcomings with programming languages and tools.
+  What can be done in this space to allow FPGAs to find their
+  way into more embedded applications?
+
+* Word level security tagging and memory coloring
+  has shown to be an effective way to enforce memory safety.
+  If these tag mechanisms were built in conjunction with a
+  hardware memory allocator and collector, it could enable
+  C and C++ to become memory safe, garbage collected languages.
+  How would the performance of a hardware GC compare
+  traditional software GC and manual deallocation?
+
 * Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber)
   for Lake Erie to combat agricultural runoff and protect water supplies.
 
@@ -234,6 +236,9 @@ Communication Systems.
 
 # Volunteering
 
+* Clarion University, Clarion, PA 2016: Teaching functional programming
+  and predictive game analytics to a setter on Clarion's women's volleyball team.
+* Clarion YMCA, Clarion, PA 2015: Youth soccer coach, 3rd-5th grade.
 * Clarion YMCA, Clarion, PA 2014: Youth soccer coach, 1st-2nd grade.
 * Iowa City Kickers, Iowa City, IA, 2013 to 2014: Youth soccer coach, 1st grade.
 * Big Brothers Big Sisters, Minneapolis, MN, 2000 to 2009: Mentor to a Minneapolis youth.
