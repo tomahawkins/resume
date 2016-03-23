@@ -43,7 +43,7 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
   hardware memory allocator and collector, it could enable
   C and C++ to become memory safe, garbage collected languages.
   How would the performance of a hardware GC compare
-  traditional software GC and manual deallocation?
+  with traditional garbage collection and manual deallocation?
 
 * Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber)
   for Lake Erie to combat agricultural runoff and protect water supplies.
