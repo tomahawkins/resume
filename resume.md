@@ -48,6 +48,21 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
 * Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber)
   for Lake Erie to combat agricultural runoff and protect water supplies.
 
+# Skills
+
+* **Languages**
+  * Haskell, OCaml, LISP, Scheme
+  * MATLAB, Simulink
+  * Java, C, C++
+  * Bluespec, Verilog, VHDL, PSL, SVA
+  * x86, PowerPC, RISC-V assembly
+  * Python, Perl, Tcl/Tk
+  * OpenGL, POV-Ray, OpenSCAD
+* **Preferred Tools**
+  * Linux, Vim, Make
+  * ACL2, Yices, CVC3
+  * Xilinx ISE, Verilator, GTKWave
+
 # Professional Experience
 
 ## [BAE Systems, Inc.](http://www.baesystems.com/), Sr Principle SW Engr, 11/2011 - Present
