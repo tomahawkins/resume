@@ -1,8 +1,9 @@
 # TOM HAWKINS
 
 Computer scientist and electrical engineer specializing in
-functional programming, formal methods, programming language and compiler design,
-cybersecurity, embedded control systems, and FPGA and ASIC design.
+functional programming, formal methods, security,
+programming language and compiler design, embedded control systems,
+and FPGA and ASIC design.
 
 * 781-281-4481
 * [tomahawkins@gmail.com](mailto:tomahawkins@gmail.com)
@@ -46,7 +47,7 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
   with traditional garbage collection and manual deallocation?
 
 * Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber)
-  for Lake Erie to combat agricultural runoff and protect water supplies.
+  for Lake Erie and the Gulf of Mexico to combat agricultural runoff, minimize deadzones, and protect water supplies.
 
 # Skills
 
@@ -56,7 +57,7 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
   * Java, C, C++
   * Bluespec, Verilog, VHDL, PSL, SVA
   * x86, PowerPC, RISC-V assembly
-  * Python, Perl, Tcl/Tk
+  * Python, Perl, Tcl/Tk, SQL
   * OpenGL, POV-Ray, OpenSCAD
 * **Preferred Tools**
   * Linux, Vim, Make
@@ -252,7 +253,7 @@ Communication Systems.
 # Volunteering
 
 * Clarion University, Clarion, PA 2016: Teaching functional programming
-  and predictive game analytics to a setter on Clarion's women's volleyball team.
+  and predictive game analytics to a member of Clarion's women's volleyball team.
 * Clarion YMCA, Clarion, PA 2015: Youth soccer coach, 3rd-5th grade.
 * Clarion YMCA, Clarion, PA 2014: Youth soccer coach, 1st-2nd grade.
 * Iowa City Kickers, Iowa City, IA, 2013 to 2014: Youth soccer coach, 1st grade.
