@@ -3,7 +3,7 @@
 Computer scientist and electrical engineer specializing in
 functional programming, formal methods, security,
 programming language and compiler design, embedded control systems,
-and FPGA and ASIC design.
+and FPGA and ASIC design.  Interested in all things mechanical.
 
 * 781-281-4481
 * [tomahawkins@gmail.com](mailto:tomahawkins@gmail.com)
@@ -13,13 +13,6 @@ and FPGA and ASIC design.
 The latest version of this resume can be found on [GitHub](https://github.com/tomahawkins/resume/blob/master/resume.md).
 
 ## Things I would do if I had the time and money:
-
-* Investigate security benefits of virtualization aggregation.
-  Securing a network of many hosts is difficult.
-  Would it be easier if the distributed machines formed a
-  single virtual host?
-  How would you architect a [SAFE](http://www.crash-safe.org/)
-  machine for virtualization aggregation?
 
 * In vehicle networks the number of onboard
   computers (ECUs) continues to grow,
@@ -46,32 +39,60 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
   How would the performance of a hardware GC compare
   with traditional garbage collection and manual deallocation?
 
+* Investigate security benefits of virtualization aggregation.
+  Securing a network of many hosts is difficult.
+  Would it be easier if the distributed machines formed a single virtual host?
+  How would you architect a [SAFE](http://www.crash-safe.org/)
+  machine for virtualization aggregation?
+
+* Friction coefficients of performance tires barely approach 1.0,
+  meaning one pound of downforce translates into less than one pound of side-load
+  that can be supported by the contact patch.  If a race
+  vehicle is going to invest in aero for better cornering performance,
+  why not use the aero directly to support the cornering loads?
+  Furthermore, why not divorce the tire from all force transmission?
+  Vehicle concept: A vertical wing for cornering and a propeller for 
+  propulsion; active surfaces for control, variable pitch
+  prop for braking.  Possible benefits:  Higher cornering speeds,
+  improved safety (an air vehicle the rides on the ground vs a 
+  car that sometimes flies through the air), lower unsprung mass,
+  less mechanical complexity due to no transmission.
+  Could this improve laptimes?
+
 * Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber)
-  for Lake Erie and the Gulf of Mexico to combat agricultural runoff, minimize deadzones, and protect water supplies.
+  for Lake Erie and the Gulf of Mexico to combat agricultural runoff, minimize deadzones,
+  and protect water supplies.
+
+* Can [monocopters](https://en.wikipedia.org/wiki/Monocopter) make useful heavy-lift drones?
+  [Maybe](https://github.com/tomahawkins/heavylift).
+
 
 # Skills
 
 * **Languages**
   * Haskell, OCaml, LISP, Scheme
-  * MATLAB, Simulink
-  * Java, C, C++
+  * C, C++
   * Bluespec, Verilog, VHDL, PSL, SVA
   * x86, PowerPC, RISC-V assembly
-  * Python, Perl, Tcl/Tk, SQL
+  * Python, SQL
+  * MATLAB, Simulink
+  * RDF, SPARQL
   * OpenGL, POV-Ray, OpenSCAD
 * **Preferred Tools**
   * Linux, Vim, Make
   * ACL2, Yices, CVC3
   * Xilinx ISE, Verilator, GTKWave
+  * Blazegraph
 
 # Professional Experience
 
 ## [BAE Systems, Inc.](http://www.baesystems.com/), Sr Principle SW Engr, 11/2011 - Present
 
-Research and software engineering for various DARPA cybersecurity programs including
+Research and software engineering for various DARPA and IARPA cybersecurity programs including
 [CRASH](http://www.darpa.mil/program/clean-slate-design-of-resilient-adaptive-secure-hosts),
-[HACMS](http://www.darpa.mil/program/high-assurance-cyber-military-systems), and
-[PERFECT](http://www.darpa.mil/program/power-efficiency-revolution-for-embedded-computing-technologies).
+[HACMS](http://www.darpa.mil/program/high-assurance-cyber-military-systems),
+[PERFECT](http://www.darpa.mil/program/power-efficiency-revolution-for-embedded-computing-technologies), and
+[CAUSE](https://www.iarpa.gov/index.php/research-programs/cause).
 Partnered closely with programming language and hardware researchers
 from the University of Pennsylvania, Northeastern University,
 Harvard University, and Princeton University.
