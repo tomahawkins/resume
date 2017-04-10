@@ -3,7 +3,7 @@
 Computer scientist and electrical engineer specializing in
 functional programming, formal methods, security,
 programming language and compiler design, embedded control systems,
-and FPGA and ASIC design.  Interested in all things mechanical.
+and FPGA and ASIC design automation.  Interested in all things mechanical.
 
 * 781-281-4481
 * [tomahawkins@gmail.com](mailto:tomahawkins@gmail.com)
@@ -12,69 +12,14 @@ and FPGA and ASIC design.  Interested in all things mechanical.
 
 The latest version of this resume can be found on [GitHub](https://github.com/tomahawkins/resume/blob/master/resume.md).
 
-## Things I would do if I had the time and money:
-
-* In vehicle networks the number of onboard
-  computers (ECUs) continues to grow,
-  yet we still program each processing node independently.
-  What can be done to automated the distribution of processing
-  across a vehicle network?
-  Can we arrive at a point where
-  vehicle software is designed as a single application and
-  an intelligent compiler automates the partitioning 
-  and distribution of the program to the processing nodes?
-  
-* FPGAs provide lower power consumption and enhanced security
-  over conventional processors,
-  yet they remain undervalued by embedded developers due
-  to shortcomings with programming languages and tools.
-  What can be done in this space to allow FPGAs to find their
-  way into more embedded applications?
-
-* Word level security tagging and memory coloring
-  has shown to be an effective way to enforce memory safety.
-  If these tag mechanisms were built in conjunction with a
-  hardware memory allocator and collector, it could enable
-  C and C++ to become memory safe, garbage collected languages.
-  How would the performance of a hardware GC compare
-  with traditional garbage collection and manual deallocation?
-
-* Investigate security benefits of virtualization aggregation.
-  Securing a network of many hosts is difficult.
-  Would it be easier if the distributed machines formed a single virtual host?
-  How would you architect a [SAFE](http://www.crash-safe.org/)
-  machine for virtualization aggregation?
-
-* Friction coefficients of performance tires barely approach 1.0,
-  meaning one pound of downforce translates into less than one pound of side-load
-  that can be supported by the contact patch.  If a race
-  vehicle is going to invest in aero for better cornering performance,
-  why not use the aero directly to support the cornering loads?
-  Furthermore, why not divorce the tire from all force transmission?
-  Vehicle concept: A vertical wing for cornering and a propeller for 
-  propulsion; active surfaces for control, variable pitch
-  prop for braking.  Possible benefits:  Higher cornering speeds,
-  improved safety (an air vehicle the rides on the ground vs a 
-  car that sometimes flies through the air), lower unsprung mass,
-  less mechanical complexity due to no transmission.
-  Could this improve laptimes?
-
-* Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber)
-  for Lake Erie and the Gulf of Mexico to combat agricultural runoff, minimize deadzones,
-  and protect water supplies.
-
-* Can [monocopters](https://en.wikipedia.org/wiki/Monocopter) make useful heavy-lift drones?
-  [Maybe](https://github.com/tomahawkins/heavylift).
-
 
 # Skills
 
 * **Languages**
-  * Haskell, OCaml, LISP, Scheme
-  * C, C++
+  * Haskell, OCaml, LISP
+  * C, C++, Python
   * Bluespec, Verilog, VHDL, PSL, SVA
-  * x86, PowerPC, RISC-V assembly
-  * Python, SQL
+  * x86, PowerPC, RISC-V
   * MATLAB, Simulink
   * RDF, SPARQL
   * OpenGL, POV-Ray, OpenSCAD
@@ -82,13 +27,12 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
   * Linux, Vim, Make
   * ACL2, Yices, CVC3
   * Xilinx ISE, Verilator, GTKWave
-  * Blazegraph
 
 # Professional Experience
 
 ## [BAE Systems, Inc.](http://www.baesystems.com/), Sr Principle SW Engr, 11/2011 - Present
 
-Research and software engineering for various DARPA and IARPA cybersecurity programs including
+Software engineering for various DARPA and IARPA cybersecurity and FPGA research programs including
 [CRASH](http://www.darpa.mil/program/clean-slate-design-of-resilient-adaptive-secure-hosts),
 [HACMS](http://www.darpa.mil/program/high-assurance-cyber-military-systems),
 [PERFECT](http://www.darpa.mil/program/power-efficiency-revolution-for-embedded-computing-technologies), and
@@ -106,7 +50,7 @@ Harvard University, and Princeton University.
   for describing fine-grained bidirectional compiler flows.
   CIRC takes [Nanopass-like](https://www.youtube.com/watch?v=Os7FE3J-U5Q)
   descriptions and generates compiler IR datatypes and transformations in Haskell.
-  
+
 * Using CIRC, built the first Breeze compiler -- a higher order functional
   language with information flow control (IFC) -- and demonstrated end-to-end
   compilation with execution on the SAFE instruction set simulator.
@@ -124,10 +68,25 @@ Harvard University, and Princeton University.
 * Developed the [Dove](http://hackage.haskell.org/package/dove)
   verification environment for [Ivory](http://ivorylang.org)
   (Ivory is used by other HACMS performers for [UAV flight software](http://www.engadget.com/2015/03/16/pentagon-wants-unhackable-helicopters/)).
-  Dove translates Ivory assertions and contracts into 
+  Dove translates Ivory assertions and contracts into
   verification conditions (VCs) that are discharged to ACL2 for proof.
   By performing an interprocedural analysis, dove is able to
   scale up verification for large programs.
+
+* Using a combination of [Bluespec](http://bluespec.com), Haskell, and
+  [Verilator](https://www.veripool.org/wiki/verilator), created the FPFP
+  framework to facilitate the analysis and conversion of floating point models
+  to fixed point FPGA implementations.  FPFP enables a hardware designer to
+  simulate numerics in either floating or fixed point from one model,
+  helping to distinguish between numeric and structural problems.
+
+* Built and fully automated the PERFECT FPGA design flow,
+  integrating pieces from Bluespec, VTR, and Verilator.
+  Using Haskell, constructed custom gate-level
+  and memory-based power optimizations.
+  The goal of PERFECT is to improve power and performance
+  of [Argus](https://www.youtube.com/watch?v=13BahrdkMU8)
+  through the extensive use of FPGAs.
 
 
 ## [EATON CORPORATION](http://www.eaton.com/), Lead SW Engr, 10/2007 - 11/2011
@@ -240,7 +199,7 @@ system verification.
 
 * Codeveloped the Honeywell Autocode Manager (HAM):
   A Simulink library for model-based development of flight control avionics.
-  Using HAM, designed the yaw damper control laws for
+  Using HAM, designed a neural network yaw damper controller for
   [Raytheon's Hawker 4000](https://en.wikipedia.org/wiki/Hawker_4000).
 
 * Conducted auto-throttle design reviews and performed bench, integration,
@@ -280,4 +239,59 @@ Communication Systems.
 * Iowa City Kickers, Iowa City, IA, 2013 to 2014: Youth soccer coach, 1st grade.
 * Big Brothers Big Sisters, Minneapolis, MN, 2000 to 2009: Mentor to a Minneapolis youth.
 * City of Phoenix, Phoenix, AZ, 1999: Youth soccer coach, ages 5 and 6.
+
+
+# Things I would like to work on given the time and opportunity:
+
+* In vehicle networks the number of onboard
+  computers (ECUs) continues to grow,
+  yet we still program each processing node independently.
+  What can be done to automated the distribution of processing
+  across a vehicle network?
+  Can we arrive at a point where
+  vehicle software is designed as a single application and
+  an intelligent compiler automates the partitioning
+  and distribution of the program to the processing nodes?
+
+* FPGAs provide lower power consumption and enhanced security
+  over conventional processors,
+  yet they remain undervalued by embedded developers due
+  to shortcomings with programming languages and tools.
+  What can be done in this space to allow FPGAs to find their
+  way into more embedded applications?
+
+* Word level security tagging and memory coloring
+  has shown to be an effective way to enforce memory safety.
+  If these tag mechanisms were built in conjunction with a
+  hardware memory allocator and collector, it could enable
+  C and C++ to become memory safe, garbage collected languages.
+  How would the performance of a hardware GC compare
+  with traditional garbage collection and manual deallocation?
+
+* Investigate security benefits of virtualization aggregation.
+  Securing a network of many hosts is difficult.
+  Would it be easier if the distributed machines formed a single virtual host?
+  How would you architect a [SAFE](http://www.crash-safe.org/)
+  machine for virtualization aggregation?
+
+* Friction coefficients of performance tires barely approach 1.0,
+  meaning one pound of downforce translates into less than one pound of side-load
+  that can be supported by the tire's contact patch.  If a race
+  vehicle is going to invest in aero for better cornering performance,
+  why not use the aero directly to support the cornering loads?
+  Furthermore, why not divorce the tire from all force transmission?
+  Vehicle concept: A vertical wing for cornering and a propeller for
+  propulsion; active surfaces for control, variable pitch
+  prop for braking.  Possible benefits:  Higher cornering speeds,
+  improved safety (an air vehicle the rides on the ground vs a
+  car that sometimes flies through the air), lower unsprung mass,
+  less mechanical complexity due to no transmission.
+  Could this improve laptimes?
+
+* Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber)
+  for Lake Erie and the Gulf of Mexico to combat agricultural runoff, minimize deadzones,
+  and protect water supplies.
+
+* Can [monocopters](https://en.wikipedia.org/wiki/Monocopter) make useful heavy-lift drones?
+  [Maybe](https://github.com/tomahawkins/heavylift).
 
