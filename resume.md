@@ -15,18 +15,17 @@ The latest version of this resume can be found on [GitHub](https://github.com/to
 
 # Skills
 
-* **Languages**
-  * Haskell, OCaml, LISP
-  * C, C++, Python
-  * Bluespec, Verilog, VHDL, PSL, SVA
-  * x86, PowerPC, RISC-V
-  * MATLAB, Simulink
-  * RDF, SPARQL
-  * OpenGL, POV-Ray, OpenSCAD
-* **Preferred Tools**
-  * Linux, Vim, Make
-  * ACL2, Yices, CVC3
-  * Xilinx ISE, Verilator, GTKWave
+* Haskell, C, C++, Python
+* Bluespec, Verilog, VHDL
+* x86, PowerPC, RISC-V
+* MATLAB, Simulink
+* RDF, SPARQL
+* Linux, Vim, Make
+* ACL2, Yices, CVC3
+* Xilinx, Verilator
+* Cadence IUS, IFV
+* Synopsys DC, Primetime
+
 
 # Professional Experience
 
