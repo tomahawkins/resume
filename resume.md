@@ -1,11 +1,11 @@
 # TOM HAWKINS
 
 Computer scientist and electrical engineer specializing in
-functional programming, formal methods, security,
-programming language and compiler design, embedded control systems,
-and FPGA and ASIC design automation.  Interested in all things mechanical.
+functional programming, formal methods, programming languages and compilers,
+high performance computing architecture, chip design and automation,
+and hard realtime embedded control systems.
+Interested in all things mechanical.
 
-* 781-281-4481
 * [tomahawkins@gmail.com](mailto:tomahawkins@gmail.com)
 * [http://github.com/tomahawkins/](http://github.com/tomahawkins/)
 * [http://www.linkedin.com/in/tomahawkins/](http://www.linkedin.com/in/tomahawkins/)
@@ -13,23 +13,66 @@ and FPGA and ASIC design automation.  Interested in all things mechanical.
 The latest version of this resume can be found on [GitHub](https://github.com/tomahawkins/resume/blob/master/resume.md).
 
 
-# Skills
+# Languages
 
-* Haskell, C, C++, Python
-* Bluespec, Verilog, VHDL
-* x86, PowerPC, RISC-V
-* MATLAB, Simulink
-* RDF, SPARQL
-* Linux, Vim, Make
-* ACL2, Yices, CVC3
-* Xilinx, Verilator
-* Cadence IUS, IFV
-* Synopsys DC, Primetime
+* Haskell, Python, C, Nix
+* Lean, Agda, ACL2
+* SystemVerilog, Bluespec
 
 
 # Professional Experience
 
-## [BAE Systems, Inc.](http://www.baesystems.com/), Sr Principle SW Engr, 11/2011 - Present
+## [Groq](http://www.groq.com/), HW and SW Engineer, 4/2017 - 6/2025
+
+11th employee through the door at this successful AI chip startup.
+Served many wide ranging roles across both HW and SW organizations
+including HW architecture, logic design, compiler development,
+HW infrastructure automation, and formal verification of critical HW components.
+
+### Accomplishments:
+
+* Principal designer for the matrix unit for Groq's first chip, codename Alan.
+  The design worked on the first spin, much thanks to Christopher Clark (numerics, convolution),
+  Jen Hwang (DV), Sushma Prasad (PD), and the rest of the team.
+  It became the first chip in history to reach the 1 Peta-OPS per die threshold -- the matrix unit makes up the bulk of these OPS.
+  The Alan chip is currently serving all Groq LLM requests today.
+
+* Joined the early compiler team and assisted with the construction of the first assembler (Haskell).
+  Currently the only person in the company's history to work on both the RTL design and compiler for the Alan chip.
+
+* Rearchitected the matrix unit for the second and follow-on chips reducing area, extending features,
+  and improving SW programability.
+
+* Built and maintained ISA architecture tooling with teammates Greg Steuck and Tom Ellis.
+  From an ISA spec, the tooling produces artifacts used by LD, DV, the architecture simulator,
+  and the assembler and compiler teams.
+
+* Supporting the hardware infrastructure team, created a Nix framework to 
+  capture SystemVerilog file dependencies to produce file lists for EDA tool consumption
+  for LD, DV, and PD teams.  This became the first time that HW development was coupled to
+  the SW organization's Nix infrastructure.
+
+* First in the company to apply formal methods (model checking) to the production
+  hardware design (chip 2 and 3).  Uncovered several bugs prior to tapeout, which had gone uncaught by DV simulation.
+  Also applied modeling checking for x-propagation analysis to rule out spurious failures raised in GL simulation.
+
+* Build a Haskell DSL, and later a LLM prompt, to specify and assemble tile-based chip designs,
+  automating the integration of floorplan blocks and functional units.
+
+* Used Agda and Lean to model the HW multipliers used in the dot-products of the matrix unit.
+
+* Patents:
+    * [US11204976](https://patents.google.com/patent/US11204976): Expanded kernel generation
+    * [US11301546](https://patents.google.com/patent/US11301546): Spatial locality transform of matrices
+    * [US11392535](https://patents.google.com/patent/US11392535): Loading operands and outputting results from a multi-dimensional array using only a single side
+    * [US11455370](https://patents.google.com/patent/US11455370): Flattened input stream generation for convolution with expanded kernel
+    * [US11537687](https://patents.google.com/patent/US11537687): Spatial locality transform of matrices
+    * [US11809514](https://patents.google.com/patent/US11809514): Expanded kernel generation
+
+
+
+
+## [BAE Systems, Inc.](http://www.baesystems.com/), Sr Principal SW Engr, 11/2011 - 4/2017
 
 Software engineering for various DARPA and IARPA cybersecurity and FPGA research programs including
 [CRASH](http://www.darpa.mil/program/clean-slate-design-of-resilient-adaptive-secure-hosts),
@@ -72,13 +115,6 @@ Harvard University, and Princeton University.
   By performing an interprocedural analysis, dove is able to
   scale up verification for large programs.
 
-* Using a combination of [Bluespec](http://bluespec.com), Haskell, and
-  [Verilator](https://www.veripool.org/wiki/verilator), created the FPFP
-  framework to facilitate the analysis and conversion of floating point models
-  to fixed point FPGA implementations.  FPFP enables a hardware designer to
-  simulate numerics in either floating or fixed point from one model,
-  helping to distinguish between numeric and structural problems.
-
 * Built and fully automated the PERFECT FPGA design flow,
   integrating pieces from Bluespec, VTR, and Verilator.
   Using Haskell, constructed custom gate-level
@@ -88,10 +124,10 @@ Harvard University, and Princeton University.
   through the extensive use of FPGAs.
 
 
-## [EATON CORPORATION](http://www.eaton.com/), Lead SW Engr, 10/2007 - 11/2011
+## [EATON CORPORATION](http://www.eaton.com/) (now [DANFOSS](https://www.danfoss.com/)), Lead SW Engr, 10/2007 - 11/2011
 
 Led embedded software development for
-[Eaton's parallel hydraulic hybrid vehicles](http://www.eaton.com/Eaton/ProductsServices/Hydraulics/HydraulicLaunchAssist/).
+[Eaton's parallel hydraulic hybrid vehicles](https://en.wikipedia.org/wiki/Hydraulic_Launch_Assist).
 Created the software architecture
 for the HLA family of vehicles and guided development from
 prototype to production.  Established advanced design tools
@@ -129,6 +165,11 @@ and promoted the use of code generation and formal methods.
 
 * Invented a novel [hydraulic pump](https://www.youtube.com/watch?v=Ow_z99MLvlg)
   with theoretical efficiency improvements over conventional axial piston pumps.
+
+* Patents:
+    * [US8950249](https://patents.google.com/patent/US8950249): Fault detection and mitigation in hybrid drive system
+    * [US10030648](https://patents.google.com/patent/US10030648): Fault detection and mitigation in hybrid drive system
+
 
 
 ## [MEDTRONIC, INC.](http://www.medtronic.com/), Sr Design Automation Engr, 1/2004 - 10/2007
@@ -221,6 +262,7 @@ Digital System Design,
 Computer Architecture,
 Communication Systems.
 
+
 ## Projects:
 
 * Remote airfoil control.
@@ -229,8 +271,12 @@ Communication Systems.
   digital design course.
 
 
-# Volunteering
+# Volunteering and Coaching
 
+* Bellingham High School (BHS)
+    * 2024-present:  "Beach Volleyball @ Lunch": I'm running an outdoor volleyball program for BHS students.  When weather is good we get about 100 students out playing daily.
+    * 2023-present:  Mathematics tutor for BHS students, providing help from algebra 1 through calculus, and inserting CS at every opportunity.
+    * 2022-2024: Assistant volleyball coach for the BHS girls team.
 * Clarion University, Clarion, PA 2016: Teaching functional programming
   and predictive game analytics to a member of Clarion's women's volleyball team.
 * Clarion YMCA, Clarion, PA 2015: Youth soccer coach, 3rd-5th grade.
@@ -239,58 +285,11 @@ Communication Systems.
 * Big Brothers Big Sisters, Minneapolis, MN, 2000 to 2009: Mentor to a Minneapolis youth.
 * City of Phoenix, Phoenix, AZ, 1999: Youth soccer coach, ages 5 and 6.
 
+# Awards
 
-# Things I would like to work on given the time and opportunity:
-
-* In vehicle networks the number of onboard
-  computers (ECUs) continues to grow,
-  yet we still program each processing node independently.
-  What can be done to automated the distribution of processing
-  across a vehicle network?
-  Can we arrive at a point where
-  vehicle software is designed as a single application and
-  an intelligent compiler automates the partitioning
-  and distribution of the program to the processing nodes?
-
-* FPGAs provide lower power consumption and enhanced security
-  over conventional processors,
-  yet they remain undervalued by embedded developers due
-  to shortcomings with programming languages and tools.
-  What can be done in this space to allow FPGAs to find their
-  way into more embedded applications?
-
-* Word level security tagging and memory coloring
-  has shown to be an effective way to enforce memory safety.
-  If these tag mechanisms were built in conjunction with a
-  hardware memory allocator and collector, it could enable
-  C and C++ to become memory safe, garbage collected languages.
-  How would the performance of a hardware GC compare
-  with traditional garbage collection and manual deallocation?
-
-* Investigate security benefits of virtualization aggregation.
-  Securing a network of many hosts is difficult.
-  Would it be easier if the distributed machines formed a single virtual host?
-  How would you architect a [SAFE](http://www.crash-safe.org/)
-  machine for virtualization aggregation?
-
-* Friction coefficients of performance tires barely approach 1.0,
-  meaning one pound of downforce translates into less than one pound of side-load
-  that can be supported by the tire's contact patch.  If a race
-  vehicle is going to invest in aero for better cornering performance,
-  why not use the aero directly to support the cornering loads?
-  Furthermore, why not divorce the tire from all force transmission?
-  Vehicle concept: A vertical wing for cornering and a propeller for
-  propulsion; active surfaces for control, variable pitch
-  prop for braking.  Possible benefits:  Higher cornering speeds,
-  improved safety (an air vehicle the rides on the ground vs a
-  car that sometimes flies through the air), lower unsprung mass,
-  less mechanical complexity due to no transmission.
-  Could this improve laptimes?
-
-* Build a large scale [algae scrubber](https://en.wikipedia.org/wiki/Algae_scrubber)
-  for Lake Erie and the Gulf of Mexico to combat agricultural runoff, minimize deadzones,
-  and protect water supplies.
-
-* Can [monocopters](https://en.wikipedia.org/wiki/Monocopter) make useful heavy-lift drones?
-  [Maybe](https://github.com/tomahawkins/heavylift).
+* CPR Life Saving Award, Whatcom County:  First on the scene to a skier in cardiac arrest at Mt Baker.
+  Started CPR and assisted ski patrol and other first responders setting up and applying an AED.
+  Patient's heart was restarted in about 5 minutes and was medevaced off the mountain, taken in an ambulance down the valley,
+  then once below the cloud layer, airlifted to the hospital.  He survived.
+  This took place on one of the more challenging double diamonds at the ski area.
 
